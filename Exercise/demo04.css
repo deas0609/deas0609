@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(20deg, rgb(0, 202, 238),rgb(8, 12, 248))fixed center center /100%100%;
+}
+.worp{
+    width: 1000px;
+    
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+
+    margin: 15px 0;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.item .pic{
+    width: 55%;
+    flex-shrink: 0;
+}
+.item img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.item .text{
+    padding: 50px 10px;
+    width: 55%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+.item h1{
+    font-size: 30px;
+}
+.item p{
+    font-size: 15px;
+}
+.item > :first-child{
+    margin-right: -10%;
+}
+.item:nth-child(1) .text{
+    background-color: rgb(147, 46, 241,.8);
+}
+.item:nth-child(2) .text{
+    background-color: rgb(43, 226, 217,.8);
+}
+.item:nth-child(3) .text{
+    background-color: rgb(43, 226, 73,.8);
+}
+
