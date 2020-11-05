@@ -1,0 +1,386 @@
+img{
+   width: 100%;
+    vertical-align: bottom;
+}
+body{
+  
+    background-color: #CCC;
+}
+/*head*/
+.head .worp{
+    background-color: white;
+     display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 100%;
+}
+
+.head .color{
+    background-color: black;
+}
+.head .item{
+    
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.head nav{
+    
+    font-size: 0px;
+    margin: 0 5px;
+    border-right: .25px solid #ccc ;
+}
+.head a{
+    line-height: 50px;
+    text-decoration: none;
+    color: #555;
+    font-size: 20px;
+    padding: 15px 10px;
+    border-left: .25px solid #ccc ;
+    
+
+}
+.head a:hover{
+    background-color: burlywood;
+}
+.head span{
+    font-size: 12px;
+    padding: 0 5px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+}
+/*banner*/
+
+.banner .worp{
+    width: 100%;
+    
+}
+
+.banner .text{
+    padding: 20px 0;
+    margin-left:5px;
+}
+.banner span{
+    
+    padding: 10px 5px;
+    background-color: rgb(0, 255, 42);
+}
+.banner h2{
+    
+    font-size: 30px;
+}
+.banner p{
+    margin-bottom: 30px;
+}
+
+.banner a{
+    padding: 5px;
+    background-color: white;
+    color: #555;
+    
+}
+.banner .worp1{
+    background-color: black;
+}
+.banner .items{
+    width: 100%;
+    display: flex;
+    
+    box-sizing: border-box;
+}
+.banner .worp1 .item{
+    position: relative;
+    margin: auto;
+}
+.banner h3{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(252, 225, 225);
+    padding: 20px 10px 10px 10px;
+}
+.banner .worp1 p{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.banner .labea ::after{
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 5px;
+    margin: auto;
+    top: 10px;
+    left:0 ;
+    right: 0;
+    background-color: #ccc;
+}
+/*example*/
+.example .worp{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.example .items{
+    max-width: 1200px;
+    display: flex;
+}
+.example .item{
+    margin: 0px 10px;
+    position: relative;
+}
+.example .text{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.example h1 {
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0,.7);
+}
+/*Program*/
+
+
+.Program .labea::after{
+    content: 'out of stock';
+    color:white;
+    display: flex;
+    text-align: center;
+    
+    align-items: center;
+    position: absolute;
+    top: 0;
+    
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(186, 199, 11);
+    }
+    .Program .item{
+        position: relative;
+        margin: 20px;
+        background-color: white;
+    }
+    .Program span{
+    
+        color:#fff;
+        padding: 30px;
+        margin: -40px 10px 0 10px;
+        background-color: rgb(97, 124, 97);
+    }
+    .Program nav{
+        border-top: 5px solid #555;
+        display: flex;
+        
+        align-items: center;
+        
+    }
+    .Program a{
+        color: #555;
+        margin: auto;
+    }
+    .Program .allbnt{
+        color: rgb(123, 124, 122);
+        padding: 5px;
+        margin: 0;
+        text-decoration: none;
+        border: 1px solid rgb(115, 248, 110);
+    }
+    .Program .allbnt:hover{
+    background-color: aliceblue;
+    }
+    .Program h1{
+        font-size: 30px;
+    }
+    .Program .top{
+    
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+/*Description*/
+.Description .item{
+    margin: 10px;
+    padding: 10px;
+    background-color: #aaa;
+}
+.Description .block{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(64, 138, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.Description h1{
+    font-size: 30px;
+}
+.Description .content .col{
+    display: flex;
+    margin: 10px 0;
+}
+.Description .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Description span{
+    font-weight: bold;
+}
+/*conpyright*/
+.conpyright .items{
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+@media screen and (min-width:361px){
+.Description{
+    display: none;
+}
+    
+}
+/*PC*/
+@media screen and (min-width:768px){
+    
+    /*PC banner*/
+    .banner .worp1,.banner .worp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .items{
+        max-width: 1200px;
+    }
+    .banner .worp .item{
+        display: flex;
+    }
+    .banner .pic{
+        width: 50%;
+    }
+    .banner .text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Description{
+        display: block;
+    }
+
+
+/*Program*/
+
+.Program .worp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Program .items{
+    border-bottom: 1px solid rgb(234, 250, 143);
+    padding-bottom: 50px;
+    max-width: 1200px;
+    display: flex;
+}
+
+
+
+
+
+.Program a:hover{
+    cursor: grab
+}
+
+
+
+
+/*Description*/
+.Description .worp{
+
+
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.Description .items{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+   
+   
+}
+
+.Description .col{
+    display: flex;
+    width: 100%; 
+    
+    
+}
+.Description .floor1-1{
+    width: 30%;
+    
+    
+}
+.Description .floor1-2{
+    width: 70%;
+    
+}
+
+/*conpyright*/
+.conpyright{
+    width: 100%;
+}
+.conpyright .worp{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.conpyright .items{
+    padding: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
